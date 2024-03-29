@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Group-2{
+width: 100%;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 16px;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+}
+
+
+.Headline-1{
+color: #4D4F62;
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 0.25px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.Headline-2{
+color: #4D4F62;
+text-align: center;
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.25px;
+justify-content: center;
+align-items: center;
+}
+
+.Text-1{
+  color: #4D4F62;
+text-align: center;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0.104px;
+
+
+}
+
+.Box{
+display: flex;
+width: 100%;
+padding: 80px 0;
+justify-content: center;
+align-items: center;
+height: 100%;
+gap: 30px;
+}
+
+
+.Mask-1{
+width: 350px;
+height: 250px;
+border-radius: 8px;
+background: #FFF;
+box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+border-top: 4px solid #44D3D2;
+padding: 32px;
+}
+
+
+.M1-headline-1{
+  color: #4D4F62;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.M1-text-1{
+  color: #4D4F62;
+font-family: Poppins;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 23px; 
+letter-spacing: 0.09px;
+width: 286px;
+opacity: 0.5;
+}
+
+
+.Mask-2{
+width: 350px;
+height: 250px;
+border-radius: 8px;
+background: #FFF;
+box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+border-top: 4px solid #EA5454;
+padding: 32px;
+}
+
+.M2-headline-2{
+  color: #4D4F62;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+display: flex;
+}
+
+.M2-text-2{
+  color: #4D4F62;
+font-family: Poppins;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 23px; 
+letter-spacing: 0.09px;
+opacity: 0.5;
+width: 286px;
+}
+
+.Mask-3{
+  width: 350px;
+height: 250px;
+border-radius: 8px;
+background: #FFF;
+box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+border-top: 4px solid #FCAE4A;
+padding: 32px;
+gap: 30px;
+}
+
+.M3-headline-3{
+  color: #4D4F62;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+width: 70px;
+height: 30px;
+}
+
+.M3-text-3{
+  width: 286px;
+color: #4D4F62;
+font-family: Poppins;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 23px; 
+letter-spacing: 0.09px;
+opacity: 0.5;
+}
+
+.Mask-4{
+  width: 350px;
+height: 250px;
+border-radius: 8px;
+background: #FFF;
+box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+border-top: 4px solid #549EF2;
+padding: 32px;
+}
+
+.M4-headline-4{
+  color: #4D4F62;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+width: 70px;
+height: 30px;
+}
+
+.M4-text-4{
+  width: 286px;
+color: #4D4F62;
+font-family: Poppins;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 23px; 
+letter-spacing: 0.09px;
+opacity: 0.5;
+}
+
+
+.centered{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Poppins;
+  gap: 30px;
+display: flex;
+flex-direction: column;
+}
+
+
+.supervisor-design{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.team-builder-design{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.karma-design{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.calculator-design{
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media only screen and (max-width: 1440px) {
+  .Box{
+    flex-direction: column;
+
+  }
+  .MASK{
+    width: 311px;
+    height: 222px;
+  }
+  .Headline-1{
+   font-size: 24px;
+
+   
+  }
+  .Headline-2{
+    font-size: 24px;
+  }
+.Text-1{
+  font-size: 16px;
+text-align: center;
+width: 30ch;
+}
+br{
+  display: none;
+}
+}
